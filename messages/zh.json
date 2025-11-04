@@ -18,8 +18,8 @@
   "Hero": {
     "greeting": "您好，我是",
     "name": "Ruoxuan Wang",
-    "title": "软件开发工程师 · 监管报送",
-    "description": "我以数据驱动的方法打造以人为本的产品，帮助监管机构、城市治理与社区平台更好地决策。",
+    "title": "软件工程师",
+    "description": "这个家伙有点懒，什么都没留下~",
     "primaryCta": {
       "label": "查看经历",
       "href": "/experience"
@@ -67,7 +67,7 @@
       },
       {
         "id": "yaka-ops",
-        "company": "雅恺教育科技有限公司",
+        "company": "雅咖教育科技有限公司",
         "role": "技术运营经理",
         "period": "2020 年 6 月 — 2021 年 3 月",
         "location": "中国山西太原",
@@ -258,20 +258,20 @@
     ]
   },
   "Contact": {
-    "title": "合作与咨询",
-    "intro": "欢迎交流监管报送、数据密集型产品或社区科技创意，一起探索解决方案。",
+    "title": "尝试与我联系",
+    "intro": "欢迎交流。",
     "options": [
       {
         "id": "email",
         "label": "邮箱",
-        "description": "发送邮件，我会在 1 个工作日内回复。",
+        "description": "想对我说点什么呢。",
         "href": "mailto:wangrx0928@gmail.com"
       },
       {
         "id": "phone",
         "label": "电话 / WhatsApp",
         "description": "如有紧急沟通，请直接来电或发送消息。",
-        "href": "tel:+447536922165"
+        "href": "tel:+44xxxxxxxxxx"
       },
       {
         "id": "linkedin",

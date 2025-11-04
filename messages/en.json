@@ -19,7 +19,7 @@
     "greeting": "Hello, I'm",
     "name": "Ruoxuan Wang",
     "title": "Software Developer · Regulatory Reporting",
-    "description": "I build human-centred software that strengthens regulatory compliance, urban analytics, and community engagement through data-informed decisions.",
+    "description": "A passionate enthusiast of data, dashboards, and user interfaces. \n A creative mind who is always brimming with new ideas.",
     "primaryCta": {
       "label": "View Experience",
       "href": "/experience"
@@ -259,19 +259,19 @@
   },
   "Contact": {
     "title": "Work Together",
-  "intro": "Have a regulatory reporting challenge, a data-intensive product, or a civic tech idea? Let's explore it together.",
+  "intro": "Welcome to contact me",
     "options": [
       {
         "id": "email",
         "label": "Email",
-  "description": "Drop a message and I'll reply within one business day.",
+  "description": "Drop a message to me.",
         "href": "mailto:wangrx0928@gmail.com"
       },
       {
         "id": "phone",
         "label": "Call or WhatsApp",
         "description": "Ring or message me for time-sensitive conversations.",
-        "href": "tel:+447536922165"
+        "href": "tel:+44xxxxxxxxxx"
       },
       {
         "id": "linkedin",

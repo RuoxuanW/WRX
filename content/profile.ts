@@ -1,8 +1,8 @@
 export const profile = {
   name: 'Ruoxuan Wang',
   email: 'wangrx0928@gmail.com',
-  phone: '+44 7536 922165',
-  location: 'London, England, United Kingdom',
+  phone: '44xxxxxxxxxx',
+  location: 'London, United Kingdom',
   socials: [
     {
       key: 'linkedin',
@@ -12,7 +12,7 @@ export const profile = {
     {
       key: 'phone',
       label: 'Phone',
-      href: 'tel:+447536922165'
+      href: 'tel:+44xxxxxxxxxx'
     }
   ]
 } as const;
