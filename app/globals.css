@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-6xl px-6 py-16 sm:px-8;
+}
+
+.section-heading {
+  @apply text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl;
+}

@@ -1,0 +1,322 @@
+{
+  "Meta": {
+    "title": "Ruoxuan Wang · 监管科技软件开发工程师",
+    "description": "软件开发工程师，专注于监管报送、数据分析与社区产品，具备跨金融、教育与城市科技的实战经验。",
+    "canonical": "https://ruoxuanwang.com/zh"
+  },
+  "Navigation": {
+    "brand": "Ruoxuan Wang",
+    "home": "首页",
+    "experience": "经历",
+    "education": "教育",
+    "projects": "项目",
+    "contact": "联系"
+  },
+  "LocaleSwitcher": {
+    "label": "语言"
+  },
+  "Hero": {
+    "greeting": "您好，我是",
+    "name": "Ruoxuan Wang",
+    "title": "软件开发工程师 · 监管报送",
+    "description": "我以数据驱动的方法打造以人为本的产品，帮助监管机构、城市治理与社区平台更好地决策。",
+    "primaryCta": {
+      "label": "查看经历",
+      "href": "/experience"
+    },
+    "secondaryCta": {
+      "label": "取得联系",
+      "href": "/contact"
+    },
+    "metrics": [
+      {
+        "label": "落地生产系统",
+        "value": "5个"
+      },
+      {
+        "label": "协作团队",
+        "value": "6个"
+      },
+      {
+        "label": "服务社区用户",
+        "value": "7000+"
+      },
+      {
+        "label": "覆盖监管框架",
+        "value": "3项"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "职业经历",
+    "intro": "通过紧密协作与快速迭代，为监管、教育与媒体团队交付值得信赖的软件产品。",
+    "items": [
+      {
+        "id": "qomply",
+        "company": "Qomply Co. Ltd.",
+        "role": "软件开发工程师",
+        "period": "2024 年 8 月 — 至今",
+        "location": "英国伦敦",
+        "achievements": [
+          "构建符合 CFTC、EMIR REFIT 与 MiFID 要求的监管报送服务，提高准确性与审计准备度。",
+          "优化遗留代码路径与单元测试，提升报送流程的稳定性与运营效率。",
+          "设计并迭代 HTML/CSS/JavaScript 前端界面，提升客户自助使用率并减少支持工单。",
+          "与产品干系人共创 Django 原型，加速交付友好的合规工具。"
+        ],
+        "technologies": ["Python", "Django", "JavaScript", "HTML/CSS", "单元测试"]
+      },
+      {
+        "id": "yaka-ops",
+        "company": "雅恺教育科技有限公司",
+        "role": "技术运营经理",
+        "period": "2020 年 6 月 — 2021 年 3 月",
+        "location": "中国山西太原",
+        "achievements": [
+          "带领团队在四个月内交付覆盖内部系统、官网与移动端的运营平台。",
+          "撰写标准作业流程并培训跨部门同事，保障新流程落地。",
+          "统筹需求采集、供应商协作与上线后迭代测试，持续完善平台体验。",
+          "建立客户画像数据库并启动数据分析项目，为增长决策提供依据。"
+        ],
+        "technologies": ["产品策略", "SQL", "HTML/CSS", "数据分析", "移动应用"]
+      },
+      {
+        "id": "yaka-analyst",
+        "company": "雅恺教育科技有限公司",
+        "role": "技术分析师",
+        "period": "2020 年 5 月 — 2021 年 3 月",
+        "location": "中国山西太原",
+        "achievements": [
+          "负责运营平台架构设计，并在四个月内上线覆盖内部与外部渠道。",
+          "将业务需求转化为详细技术规格，指导供应商团队实施。",
+          "主导问题排查、缺陷修复与基于用户反馈的持续优化。",
+          "在业务与技术团队之间建立沟通桥梁，保障服务质量。",
+          "建设并维护覆盖 7000+ 客户的数据库，支撑产品迭代。"
+        ],
+        "technologies": ["系统架构", "需求管理", "SQL", "Python", "供应商协作"]
+      },
+      {
+        "id": "chinasoft",
+        "company": "中软国际",
+        "role": "数据实习生",
+        "period": "2018 年 9 月 — 2018 年 10 月",
+        "location": "中国北京",
+        "achievements": [
+          "采集并整合北京市交通违章与罚款数据，为后续分析打基础。",
+          "制作地理分布可视化报告，支持城市规划部门洞察重点区域。"
+        ],
+        "technologies": ["Python", "Pandas", "数据可视化"]
+      },
+      {
+        "id": "shanxi-media",
+        "company": "山西广播电视传媒集团",
+        "role": "数据实习生",
+        "period": "2017 年 7 月 — 2017 年 8 月",
+        "location": "中国山西太原",
+        "achievements": [
+          "制作宣传海报并归类节目素材，提升周播排期效率。",
+          "负责节目编辑、分类与质检，确保多频道按时播出。",
+          "分析收视数据、编写报告并归档资料，为后续编排提供依据。"
+        ],
+        "technologies": ["Excel", "Tableau", "数据治理"]
+      }
+    ]
+  },
+  "Projects": {
+    "title": "项目与实践",
+    "intro": "涵盖社区平台、数据分析与预测建模的学术与职业项目精选。",
+    "items": [
+      {
+        "id": "town-hall-platform",
+        "name": "Town Hall 社区平台",
+        "description": "支持居民围绕本地议题交流的动态 Web 应用。",
+        "outcomes": [
+          "主导响应式 React 前端与实时消息系统的端到端交付。",
+          "构建 ASP.NET Core 服务与 Entity Framework 数据模型，实现基于地理位置的讨论串。",
+          "采用敏捷流程与 Git 协作，使团队效率提升 40%。"
+        ],
+        "technologies": ["React", "ASP.NET Core", "Entity Framework", "REST", "CSS"]
+      },
+      {
+        "id": "leeds-accident-analysis",
+        "name": "利兹市中心道路与事故分析",
+        "description": "对 300+ 起交通事故进行空间分析，为安全规划提供依据。",
+        "outcomes": [
+          "使用 GeoPandas、Spaghetti 与 Matplotlib 绘制热点与聚类。",
+          "应用 Ripley’s K 函数研究道路与路口之间的相关性。",
+          "给出五项提升道路安全的可执行建议。"
+        ],
+        "technologies": ["Python", "GeoPandas", "Spaghetti", "Matplotlib"]
+      },
+      {
+        "id": "domestic-sleep-monitor",
+        "name": "居家睡眠监测系统",
+        "description": "面向老年人的睡眠监测垫与配套应用，荣获 240 支团队中的最高奖项。",
+        "outcomes": [
+          "协调 7 人团队确定产品范围与功能优先级。",
+          "设计用户与医生之间的数据共享流程，保障及时反馈。",
+          "凭借创新与执行力赢得赛事最高荣誉。"
+        ],
+        "technologies": ["产品管理", "IoT", "数据集成"]
+      },
+      {
+        "id": "airline-engagement",
+        "name": "航空客户参与度优化",
+        "description": "通过预测分析提升航空订票参与度的营销项目。",
+        "outcomes": [
+          "利用 RandomForest 模型在 5 万条交互数据上将预测准确率提升至 85%。",
+          "提出目标营销策略，使客户参与度提升 15%。",
+          "识别带来 20% 附加收入增长的关键驱动因素，并助力航线规划。"
+        ],
+        "technologies": ["Python", "scikit-learn", "Pandas", "RandomForest"]
+      },
+      {
+        "id": "covid-analysis",
+        "name": "COVID-19 数据分析与预测",
+        "description": "为 NHS 提供疫苗影响洞察与感染趋势预测的分析项目。",
+        "outcomes": [
+          "通过 API 获取数据并结合 Pandas、NumPy 进行可视化。",
+          "使用线性回归分析疫苗接种与病例结果之间的关联。",
+          "向 NHS 提供前瞻性的准备建议。"
+        ],
+        "technologies": ["Python", "Pandas", "NumPy", "Matplotlib"]
+      },
+      {
+        "id": "customer-reviews",
+        "name": "航空客户评价分析",
+        "description": "对 1000+ 条航空公司评价进行情感与主题建模，指导服务改进。",
+        "outcomes": [
+          "完成数据清洗、归一化与情感分类。",
+          "结合 TextBlob 与 LDA 挖掘关键主题，为体验提升提供依据。",
+          "通过词云与柱状图可视化频繁词汇，助力高层汇报。"
+        ],
+        "technologies": ["Python", "Pandas", "TextBlob", "scikit-learn"]
+      },
+      {
+        "id": "campus-social",
+        "name": "校园社交 PWA",
+        "description": "帮助校园用户交易闲置、报名活动与失物认领的渐进式 Web 应用。",
+        "outcomes": [
+          "设计并上线 MVP，弥补商用校园应用的能力缺口。",
+          "将平台升级为校园内的社交网络。",
+          "提供兼顾线上线下使用场景的响应式体验。"
+        ],
+        "technologies": ["PWA", "JavaScript", "CSS", "Firebase"]
+      },
+      {
+        "id": "knife-crime-dashboards",
+        "name": "刀具犯罪数据仪表盘",
+        "description": "分析英格兰、威尔士与大伦敦地区的刀具犯罪数据并构建交互式看板。",
+        "outcomes": [
+          "利用高级 Excel 技巧汇总与清洗全国数据集。",
+          "在 Tableau 与 Axure 中构建交互式仪表盘，面向不同受众呈现洞察。",
+          "以清晰的数据驱动建议赢得课程最高评分。"
+        ],
+        "technologies": ["Excel", "Tableau", "Axure"]
+      }
+    ]
+  },
+  "Education": {
+    "title": "教育经历",
+    "intro": "持续学习软件工程、城市信息学与数据驱动问题求解。",
+    "items": [
+      {
+        "id": "42-london",
+        "school": "42 London",
+        "degree": "软件工程训练营",
+        "period": "2024 年 3 月 — 2025 年 3 月",
+        "location": "英国伦敦",
+        "highlights": [
+          "以同侪互助与项目驱动为核心的现代软件工程课程。",
+          "在迭代式评审中完成多个全栈项目。",
+          "通过高强度算法挑战强化问题解决能力。"
+        ]
+      },
+      {
+        "id": "kcl-urban-informatics",
+        "school": "伦敦国王学院",
+        "degree": "硕士，城市信息学",
+        "period": "2021 年 9 月 — 2022 年 9 月",
+        "location": "英国伦敦",
+        "highlights": [
+          "系统学习智慧城市、空间分析与公共数据可视化。",
+          "开展基于地理空间数据的交通安全研究。",
+          "与多学科团队合作原型城市科技解决方案。"
+        ]
+      },
+      {
+        "id": "nuc-software-engineering",
+        "school": "中北大学",
+        "degree": "学士，软件工程",
+        "period": "2016 年 9 月 — 2020 年 6 月",
+        "location": "中国山西太原",
+        "highlights": [
+          "GPA 86，专注软件系统与产品开发。",
+          "牵头完成软硬件结合的跨学科课程项目。",
+          "组织校园科技活动，推动同伴技术实践。"
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "合作与咨询",
+    "intro": "欢迎交流监管报送、数据密集型产品或社区科技创意，一起探索解决方案。",
+    "options": [
+      {
+        "id": "email",
+        "label": "邮箱",
+        "description": "发送邮件，我会在 1 个工作日内回复。",
+        "href": "mailto:wangrx0928@gmail.com"
+      },
+      {
+        "id": "phone",
+        "label": "电话 / WhatsApp",
+        "description": "如有紧急沟通，请直接来电或发送消息。",
+        "href": "tel:+447536922165"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "description": "关注项目动态与合作机会。",
+        "href": "https://www.linkedin.com/in/ruoxuan-orianna-wang/"
+      }
+    ],
+    "note": "如更倾向邮件沟通，请发送至 {email}；紧急事项可致电 {phone}。",
+    "form": {
+      "title": "快速留言",
+      "description": "填写几项信息后，将自动打开收件人为 {email} 的邮件草稿。",
+      "submit": "撰写邮件",
+      "success": "感谢联系！邮件客户端已打开。",
+      "error": "请先填写有效的邮箱与留言内容。",
+      "fields": [
+        {
+          "name": "name",
+          "label": "姓名",
+          "placeholder": "您的姓名",
+          "required": false
+        },
+        {
+          "name": "email",
+          "label": "邮箱",
+          "placeholder": "you@company.com",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "留言",
+          "placeholder": "请描述您的目标与时间规划",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  },
+  "Footer": {
+    "location": "常驻 {location}",
+    "contact": "邮箱",
+    "social": {
+      "linkedin": "LinkedIn",
+      "phone": "电话"
+    }
+  }
+}

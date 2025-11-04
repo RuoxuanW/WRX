@@ -1,0 +1,322 @@
+{
+  "Meta": {
+    "title": "Ruoxuan Wang · Software Developer in Regulatory Reporting",
+    "description": "Software developer specialising in regulatory reporting, data analysis, and community-focused products with experience across finance, education, and civic tech.",
+    "canonical": "https://ruoxuanwang.com"
+  },
+  "Navigation": {
+    "brand": "Ruoxuan Wang",
+    "home": "Home",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "Hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ruoxuan Wang",
+    "title": "Software Developer · Regulatory Reporting",
+    "description": "I build human-centred software that strengthens regulatory compliance, urban analytics, and community engagement through data-informed decisions.",
+    "primaryCta": {
+      "label": "View Experience",
+      "href": "/experience"
+    },
+    "secondaryCta": {
+      "label": "Get in Touch",
+      "href": "/contact"
+    },
+    "metrics": [
+      {
+        "label": "Production systems delivered",
+        "value": "5"
+      },
+      {
+        "label": "Cross-functional teams supported",
+        "value": "6"
+      },
+      {
+        "label": "Community users onboarded",
+        "value": "7K+"
+      },
+      {
+        "label": "Regtech regimes covered",
+        "value": "3"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Experience",
+    "intro": "Delivering trustworthy software for regulators, educators, and media teams through close collaboration and rapid iteration.",
+    "items": [
+      {
+        "id": "qomply",
+        "company": "Qomply Co. Ltd.",
+        "role": "Software Developer",
+        "period": "August 2024 — Present",
+        "location": "London, United Kingdom",
+        "achievements": [
+          "Implemented regulatory reporting services aligned with CFTC, EMIR REFIT, and MiFID requirements, improving accuracy and audit readiness.",
+          "Optimised legacy code paths and unit tests to enhance stability and operational efficiency across the reporting workflow.",
+          "Designed and refined HTML/CSS/JavaScript interfaces that increased client self-service adoption and reduced support tickets.",
+          "Prototyped Django-based features with product stakeholders, accelerating delivery of user-friendly compliance tooling."
+        ],
+        "technologies": ["Python", "Django", "JavaScript", "HTML/CSS", "Unit Testing"]
+      },
+      {
+        "id": "yaka-ops",
+        "company": "Yaka Education Technology Co. Ltd.",
+        "role": "Technical Operation Manager",
+        "period": "June 2020 — March 2021",
+        "location": "Taiyuan, Shanxi, China",
+        "achievements": [
+          "Led the delivery of an integrated operations system covering internal tools, public websites, and a mobile app within four months.",
+          "Documented standard operating procedures and trained cross-functional teams to ensure consistent adoption of new workflows.",
+          "Coordinated requirement gathering, vendor collaboration, and iterative testing to mature the platform post-launch.",
+          "Established a customer profile database and activated company-wide analytics initiatives to inform growth decisions."
+        ],
+        "technologies": ["Product Strategy", "SQL", "HTML/CSS", "Analytics", "Mobile Apps"]
+      },
+      {
+        "id": "yaka-analyst",
+        "company": "Yaka Education Technology Co. Ltd.",
+        "role": "Technical Analyst",
+        "period": "May 2020 — March 2021",
+        "location": "Taiyuan, Shanxi, China",
+        "achievements": [
+          "Architected the company-wide operations platform and launched it within four months across internal and external channels.",
+          "Translated business requirements into detailed technical specifications for vendor development teams.",
+          "Managed debugging, issue resolution, and continuous improvements driven by user feedback and performance metrics.",
+          "Provided ongoing user support and communication bridges between stakeholders and technical teams, maintaining service quality.",
+          "Developed and managed a customer database exceeding 7,000 profiles to inform product enhancements."
+        ],
+        "technologies": ["System Architecture", "Requirements Management", "SQL", "Python", "Vendor Management"]
+      },
+      {
+        "id": "chinasoft",
+        "company": "Chinasoft International",
+        "role": "Data Intern",
+        "period": "September 2018 — October 2018",
+        "location": "Beijing, China",
+        "achievements": [
+          "Collected and consolidated traffic violation and fine data sets from the Beijing City Council for analysis.",
+          "Produced visual reports that highlighted location-based patterns to support municipal planning decisions."
+        ],
+        "technologies": ["Python", "Pandas", "Data Visualisation"]
+      },
+      {
+        "id": "shanxi-media",
+        "company": "Shanxi Radio and TV Media Group Co., Ltd",
+        "role": "Data Intern",
+        "period": "July 2017 — August 2017",
+        "location": "Taiyuan, Shanxi, China",
+        "achievements": [
+          "Created promotional assets and categorised media content to streamline weekly broadcast scheduling.",
+          "Edited, classified, and quality-checked programming to ensure smooth airing across channels.",
+          "Analysed audience ratings, compiled reporting packs, and archived data to guide future programming strategies."
+        ],
+        "technologies": ["Excel", "Tableau", "Data Governance"]
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects & Initiatives",
+    "intro": "A cross-section of academic, professional, and self-initiated work spanning community platforms, data analysis, and predictive modelling.",
+    "items": [
+      {
+        "id": "town-hall-platform",
+        "name": "Town Hall Community Platform",
+        "description": "Dynamic web application that enables residents to discuss location-specific topics and stay connected with local updates.",
+        "outcomes": [
+          "Led the end-to-end delivery of a responsive React interface with real-time messaging capabilities.",
+          "Built ASP.NET Core services and Entity Framework data models for location-aware conversations.",
+          "Adopted agile rituals and Git-based workflows that improved team velocity by 40%."
+        ],
+        "technologies": ["React", "ASP.NET Core", "Entity Framework", "REST", "CSS"]
+      },
+      {
+        "id": "leeds-accident-analysis",
+        "name": "Road Network & Accident Analysis — Leeds",
+        "description": "Spatial analytics project evaluating 300+ traffic accidents in Leeds city centre to inform safety planning.",
+        "outcomes": [
+          "Used Geopandas, Spaghetti, and Matplotlib to map hotspots and accident clusters.",
+          "Applied Ripley's K-function to examine correlations across connected roads and intersections.",
+          "Delivered five actionable recommendations for road safety improvements."
+        ],
+        "technologies": ["Python", "GeoPandas", "Spaghetti", "Matplotlib"]
+      },
+      {
+        "id": "domestic-sleep-monitor",
+        "name": "Domestic Sleep Monitor",
+        "description": "Award-winning group project delivering a sleep monitoring mat and companion applications for older adults.",
+        "outcomes": [
+          "Coordinated a seven-person team to define product scope and feature requirements.",
+          "Designed data sharing flows connecting users with medical professionals for timely support.",
+          "Won the top prize among 240 teams for innovation and execution."
+        ],
+        "technologies": ["Product Management", "IoT", "Data Integration"]
+      },
+      {
+        "id": "airline-engagement",
+        "name": "Optimising Airline Customer Engagement",
+        "description": "Predictive analytics project increasing airline booking engagement through data-driven marketing.",
+        "outcomes": [
+          "Boosted booking prediction accuracy to 85% using RandomForest models over 50,000 interactions.",
+          "Proposed targeted marketing strategies that lifted customer engagement by 15%.",
+          "Identified revenue drivers contributing to a 20% ancillary uplift and better route planning."
+        ],
+        "technologies": ["Python", "scikit-learn", "Pandas", "RandomForest"]
+      },
+      {
+        "id": "covid-analysis",
+        "name": "COVID-19 Data Analysis & Forecasting",
+        "description": "Data analysis initiative supporting NHS planning with vaccine impact insights and infection forecasts.",
+        "outcomes": [
+          "Integrated API data with Pandas and NumPy to visualise national and regional trends.",
+          "Modelled correlations between vaccination rates and case outcomes using linear regression.",
+          "Provided forward-looking recommendations to NHS stakeholders for preparedness."
+        ],
+        "technologies": ["Python", "Pandas", "NumPy", "Matplotlib"]
+      },
+      {
+        "id": "customer-reviews",
+        "name": "Airline Customer Reviews Analysis",
+        "description": "Sentiment and topic modelling study on 1,000+ airline reviews to inform service enhancements.",
+        "outcomes": [
+          "Performed data cleaning, normalisation, and categorisation of sentiment classes.",
+          "Applied TextBlob and LDA to surface key themes for customer experience initiatives.",
+          "Visualised term frequency insights through word clouds and bar charts for executive reporting."
+        ],
+        "technologies": ["Python", "Pandas", "TextBlob", "scikit-learn"]
+      },
+      {
+        "id": "campus-social",
+        "name": "Campus Social Media PWA",
+        "description": "Progressive web app enabling university students to trade items, join events, and recover lost property.",
+        "outcomes": [
+          "Designed and launched the MVP to address gaps in commercial campus apps.",
+          "Scaled the platform into an internal social network connecting university communities.",
+          "Delivered a responsive experience that balanced offline and online access needs."
+        ],
+        "technologies": ["PWA", "JavaScript", "CSS", "Firebase"]
+      },
+      {
+        "id": "knife-crime-dashboards",
+        "name": "Knife Crime Analytics Dashboards",
+        "description": "Interactive dashboards analysing knife crime statistics across England, Wales, and Greater London.",
+        "outcomes": [
+          "Aggregated and cleaned national data sets using advanced Excel techniques.",
+          "Built Tableau and Axure dashboards to communicate insights to diverse audiences.",
+          "Achieved the highest course score for clarity in data-driven recommendations."
+        ],
+        "technologies": ["Excel", "Tableau", "Axure"]
+      }
+    ]
+  },
+  "Education": {
+    "title": "Education",
+    "intro": "Continuous learning across software engineering, urban informatics, and data-driven problem solving.",
+    "items": [
+      {
+        "id": "42-london",
+        "school": "42 London",
+        "degree": "Bootcamp, Software Engineering",
+        "period": "March 2024 — March 2025",
+        "location": "London, United Kingdom",
+        "highlights": [
+          "Peer-led, project-based curriculum focused on modern software engineering.",
+          "Developed full-stack projects with iterative feedback and code reviews.",
+          "Strengthened problem-solving through rigorous algorithmic challenges."
+        ]
+      },
+      {
+        "id": "kcl-urban-informatics",
+        "school": "King's College London",
+        "degree": "Master's, Urban Informatics",
+        "period": "September 2021 — September 2022",
+        "location": "London, United Kingdom",
+        "highlights": [
+          "Studied smart city systems, spatial analytics, and civic data visualisation.",
+          "Delivered research on mobility and safety using geospatial datasets.",
+          "Collaborated with multidisciplinary teams to prototype urban tech solutions."
+        ]
+      },
+      {
+        "id": "nuc-software-engineering",
+        "school": "North University of China",
+        "degree": "Bachelor's, Software Engineering",
+        "period": "September 2016 — June 2020",
+        "location": "Taiyuan, Shanxi, China",
+        "highlights": [
+          "Graduated with a GPA of 86, specialising in software systems and product development.",
+          "Led cross-functional coursework projects integrating hardware and software components.",
+          "Organised campus events promoting technology adoption among peers."
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Work Together",
+  "intro": "Have a regulatory reporting challenge, a data-intensive product, or a civic tech idea? Let's explore it together.",
+    "options": [
+      {
+        "id": "email",
+        "label": "Email",
+  "description": "Drop a message and I'll reply within one business day.",
+        "href": "mailto:wangrx0928@gmail.com"
+      },
+      {
+        "id": "phone",
+        "label": "Call or WhatsApp",
+        "description": "Ring or message me for time-sensitive conversations.",
+        "href": "tel:+447536922165"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "description": "Connect for updates on projects and open collaboration opportunities.",
+        "href": "https://www.linkedin.com/in/ruoxuan-orianna-wang/"
+      }
+    ],
+    "note": "Prefer email? Reach me anytime at {email} or call {phone} for urgent topics.",
+    "form": {
+      "title": "Send a quick note",
+      "description": "Share a few details and your mail client will open a draft addressed to {email}.",
+      "submit": "Compose email",
+      "success": "Thanks for reaching out! Your mail client should now be open.",
+      "error": "Please provide a valid email and message before sending.",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "placeholder": "Your name",
+          "required": false
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "placeholder": "you@company.com",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "Message",
+          "placeholder": "Tell me about your goals and timeline",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  },
+  "Footer": {
+    "location": "Based in {location}",
+    "contact": "Email",
+    "social": {
+      "linkedin": "LinkedIn",
+      "phone": "Phone"
+    }
+  }
+}
