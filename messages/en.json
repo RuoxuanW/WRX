@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Ruoxuan Wang · Software Developer in Regulatory Reporting",
-    "description": "Software developer specialising in regulatory reporting, data analysis, and community-focused products with experience across finance, education, and civic tech.",
+    "title": "Ruoxuan Wang · Software Developer",
+    "description": "Software developer specialising in data analysis and community-focused products with experience across finance, education, and civic tech.",
     "canonical": "https://ruoxuanwang.com"
   },
   "Navigation": {
@@ -18,7 +18,7 @@
   "Hero": {
     "greeting": "Hello, I'm",
     "name": "Ruoxuan Wang",
-    "title": "Software Developer · Regulatory Reporting",
+    "title": "Software Developer",
     "description": "A passionate enthusiast of data, dashboards, and user interfaces. \n A creative mind who is always brimming with new ideas.",
     "primaryCta": {
       "label": "View Experience",
@@ -223,11 +223,10 @@
         "id": "42-london",
         "school": "42 London",
         "degree": "Bootcamp, Software Engineering",
-        "period": "March 2024 — March 2025",
+        "period": "March 2024 — July 2024",
         "location": "London, United Kingdom",
         "highlights": [
           "Peer-led, project-based curriculum focused on modern software engineering.",
-          "Developed full-stack projects with iterative feedback and code reviews.",
           "Strengthened problem-solving through rigorous algorithmic challenges."
         ]
       },
