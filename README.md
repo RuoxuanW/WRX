@@ -45,16 +45,16 @@ The site is available at `http://localhost:3000` with locale-aware routes (`/en`
 
 2. **触发部署**
 
-   - 推送到 `main` 分支会自动触发部署；若默认分支为 `master`，请修改 `.github/workflows/deploy.yml` 中的 `branches: ['main']` 为 `branches: ['master']`。
+   - 推送到 `main` 或 `Version-update` 分支会自动触发部署；若默认分支为 `master`，可在 workflow 中增加 `branches: ['master']`。
 
 3. **访问站点**
    - 部署完成后访问：`https://<你的用户名>.github.io/<仓库名>/`
-   - 例如：`https://orianna.github.io/personal-profile/`
+   - 例如：`https://ruoxuanw.github.io/WRX/`
 
-本地构建（与 CI 一致）：
+本地构建（与 CI 一致，仓库名为 WRX 时）：
 
 ```bash
-BASE_PATH=/personal-profile npm run build
+BASE_PATH=/WRX npm run build
 # 静态文件在 ./out 目录
 ```
 

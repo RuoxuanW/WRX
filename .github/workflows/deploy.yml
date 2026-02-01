@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    # 支持从 Version-update 测试部署，确认无误后再 merge 到 main
+    branches: ["main", "Version-update"]
   workflow_dispatch:
 
 permissions:
