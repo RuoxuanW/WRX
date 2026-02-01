@@ -34,4 +34,30 @@ The site is available at `http://localhost:3000` with locale-aware routes (`/en`
 
 ## Deployment
 
+### GitHub Pages（静态站点）
+
+项目已配置为**静态导出**并可通过 GitHub Actions 部署到 GitHub Pages。
+
+1. **启用 GitHub Pages**
+
+   - 仓库 → **Settings** → **Pages**
+   - **Source** 选择 **GitHub Actions**
+
+2. **触发部署**
+
+   - 推送到 `main` 分支会自动触发部署；若默认分支为 `master`，请修改 `.github/workflows/deploy.yml` 中的 `branches: ['main']` 为 `branches: ['master']`。
+
+3. **访问站点**
+   - 部署完成后访问：`https://<你的用户名>.github.io/<仓库名>/`
+   - 例如：`https://orianna.github.io/personal-profile/`
+
+本地构建（与 CI 一致）：
+
+```bash
+BASE_PATH=/personal-profile npm run build
+# 静态文件在 ./out 目录
+```
+
+### 其他方式
+
 Deploy to Vercel (recommended) or any Node.js hosting platform. Make sure the `NEXT_INTL_LOCALE_NEGOTIATION` environment setting matches your desired locale detection strategy.
