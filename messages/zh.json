@@ -250,19 +250,13 @@
         "href": "mailto:wangrx0928@gmail.com"
       },
       {
-        "id": "phone",
-        "label": "电话 / WhatsApp",
-        "description": "如有紧急沟通，请直接来电或发送消息。",
-        "href": "tel:+44xxxxxxxxxx"
-      },
-      {
         "id": "linkedin",
         "label": "LinkedIn",
         "description": "关注项目动态与合作机会。",
         "href": "https://www.linkedin.com/in/ruoxuan-orianna-wang/"
       }
     ],
-    "note": "如更倾向邮件沟通，请发送至 {email}；紧急事项可致电 {phone}。",
+    "note": "如更倾向邮件沟通，请发送至 {email}，我会尽快回复。",
     "form": {
       "title": "快速留言",
       "description": "填写几项信息后，将自动打开收件人为 {email} 的邮件草稿。",
@@ -297,8 +291,7 @@
     "location": "常驻 {location}",
     "contact": "邮箱",
     "social": {
-      "linkedin": "LinkedIn",
-      "phone": "电话"
+      "linkedin": "LinkedIn"
     }
   }
 }

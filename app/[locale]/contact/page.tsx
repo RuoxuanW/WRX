@@ -46,7 +46,7 @@ export default async function ContactPage({
         title={t('title')}
         subtitle={t('intro')}
         options={options}
-        note={t('note', {email: profile.email, phone: profile.phone})}
+        note={t('note', {email: profile.email})}
       />
       <ContactForm fields={fields} copy={copy} />
     </div>

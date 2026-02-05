@@ -74,7 +74,7 @@ export default async function HomePage({
         title={contactTranslations('title')}
         subtitle={contactTranslations('intro')}
         options={contactOptions}
-        note={contactTranslations('note', {email: profile.email, phone: profile.phone ?? ''})}
+        note={contactTranslations('note', {email: profile.email})}
       />
     </>
   );

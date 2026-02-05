@@ -250,19 +250,13 @@
         "href": "mailto:wangrx0928@gmail.com"
       },
       {
-        "id": "phone",
-        "label": "Call or WhatsApp",
-        "description": "Ring or message me for time-sensitive conversations.",
-        "href": "tel:+44xxxxxxxxxx"
-      },
-      {
         "id": "linkedin",
         "label": "LinkedIn",
         "description": "Connect for updates on projects and open collaboration opportunities.",
         "href": "https://www.linkedin.com/in/ruoxuan-orianna-wang/"
       }
     ],
-    "note": "Prefer email? Reach me anytime at {email} or call {phone} for urgent topics.",
+    "note": "Prefer email? Reach me anytime at {email} and I'll respond soon.",
     "form": {
       "title": "Send a quick note",
       "description": "Share a few details and your mail client will open a draft addressed to {email}.",
@@ -297,8 +291,7 @@
     "location": "Based in {location}",
     "contact": "Email",
     "social": {
-      "linkedin": "LinkedIn",
-      "phone": "Phone"
+      "linkedin": "LinkedIn"
     }
   }
 }
