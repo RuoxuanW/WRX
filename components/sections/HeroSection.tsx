@@ -1,9 +1,5 @@
 import {ButtonLink} from '@/components/ui/ButtonLink';
-
-export type HeroMetric = {
-  label: string;
-  value: string;
-};
+import Image from 'next/image';
 
 export type HeroCta = {
   label: string;
@@ -17,11 +13,11 @@ export type HeroContent = {
   description: string;
   primaryCta: HeroCta;
   secondaryCta: HeroCta;
-  metrics: HeroMetric[];
+  photoUrl?: string;
 };
 
 export function HeroSection({content}: {content: HeroContent}) {
-  const {greeting, name, title, description, primaryCta, secondaryCta, metrics} = content;
+  const {greeting, name, title, description, primaryCta, secondaryCta, photoUrl} = content;
 
   return (
     <section className="section-container grid gap-12 lg:grid-cols-[2fr_1fr] lg:items-center">
@@ -41,14 +37,17 @@ export function HeroSection({content}: {content: HeroContent}) {
           </ButtonLink>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
-        {metrics.map((metric) => (
-          <div key={metric.label} className="rounded-2xl bg-slate-50 p-4 text-slate-700">
-            <span className="block text-3xl font-semibold text-brand-primary">{metric.value}</span>
-            <span className="text-sm text-slate-500">{metric.label}</span>
-          </div>
-        ))}
-      </div>
+      {photoUrl && (
+        <div className="relative aspect-square overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-card lg:aspect-[3/4]">
+          <Image
+            src={photoUrl}
+            alt={name}
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+      )}
     </section>
   );
 }

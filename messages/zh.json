@@ -28,24 +28,7 @@
       "label": "取得联系",
       "href": "/contact"
     },
-    "metrics": [
-      {
-        "label": "落地生产系统",
-        "value": "5个"
-      },
-      {
-        "label": "协作团队",
-        "value": "6个"
-      },
-      {
-        "label": "服务社区用户",
-        "value": "7000+"
-      },
-      {
-        "label": "覆盖监管框架",
-        "value": "3项"
-      }
-    ]
+    "photoUrl": "/images/profile.jpg"
   },
   "Experience": {
     "title": "职业经历",

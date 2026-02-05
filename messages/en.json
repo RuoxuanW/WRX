@@ -28,24 +28,7 @@
       "label": "Get in Touch",
       "href": "/contact"
     },
-    "metrics": [
-      {
-        "label": "Production systems delivered",
-        "value": "5"
-      },
-      {
-        "label": "Cross-functional teams supported",
-        "value": "6"
-      },
-      {
-        "label": "Community users onboarded",
-        "value": "7K+"
-      },
-      {
-        "label": "Regtech regimes covered",
-        "value": "3"
-      }
-    ]
+    "photoUrl": "/images/profile.jpg"
   },
   "Experience": {
     "title": "Experience",

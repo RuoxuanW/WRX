@@ -23,6 +23,8 @@ export default async function HomePage({
   const educationTranslations = await getTranslations({namespace: 'Education'});
   const contactTranslations = await getTranslations({namespace: 'Contact'});
 
+  const heroPhoto = heroTranslations('photoUrl', {defaultMessage: ''});
+
   const heroContent: HeroContent = {
     greeting: heroTranslations('greeting'),
     name: heroTranslations('name'),
@@ -36,7 +38,7 @@ export default async function HomePage({
       label: heroTranslations('secondaryCta.label'),
       href: buildHref(locale, heroTranslations('secondaryCta.href'))
     },
-  metrics: heroTranslations.raw('metrics') as HeroContent['metrics']
+    photoUrl: heroPhoto || undefined
   } satisfies HeroContent;
 
   const experienceItems = experienceTranslations.raw('items') as ExperienceItem[];
@@ -72,7 +74,7 @@ export default async function HomePage({
         title={contactTranslations('title')}
         subtitle={contactTranslations('intro')}
         options={contactOptions}
-        note={contactTranslations('note', {email: profile.email})}
+        note={contactTranslations('note', {email: profile.email, phone: profile.phone ?? ''})}
       />
     </>
   );
