@@ -1,4 +1,5 @@
 import {ButtonLink} from '@/components/ui/ButtonLink';
+import {publicAssetPath} from '@/lib/site';
 import Image from 'next/image';
 
 export type HeroCta = {
@@ -40,7 +41,7 @@ export function HeroSection({content}: {content: HeroContent}) {
       {photoUrl && (
         <div className="relative aspect-square overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-card lg:aspect-[3/4]">
           <Image
-            src={photoUrl}
+            src={publicAssetPath(photoUrl)}
             alt={name}
             fill
             className="object-cover"

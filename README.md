@@ -9,7 +9,12 @@ npm install
 npm run dev
 ```
 
-The site is available at `http://localhost:3000` with locale-aware routes (`/en`, `/zh`).
+The site uses `basePath` from `site.config.mjs` (currently `/WRX`). After `npm run dev`, open:
+
+- English: `http://localhost:3000/WRX/en`
+- Chinese: `http://localhost:3000/WRX/zh`
+
+Routes without the base path (for example `/en`) will not work while `basePath` is set.
 
 ## Key Features
 
